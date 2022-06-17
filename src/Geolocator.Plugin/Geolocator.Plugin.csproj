@@ -31,7 +31,6 @@
 		<DebugType>portable</DebugType>
 		<DefineConstants>$(DefineConstants);</DefineConstants>
 		<AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
-		<TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
 		<DebugSymbols>true</DebugSymbols>
