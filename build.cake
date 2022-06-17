@@ -13,7 +13,6 @@ Task("Libraries").Does(()=>
 	MSBuild (SLN, c => {
 		c.Configuration = CONFIG;
 		c.MSBuildPlatform = Cake.Common.Tools.MSBuild.MSBuildPlatform.x86;
-		c.ToolVersion = MSBuildToolVersion.VS2019;
 	});
 });
 
